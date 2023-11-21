@@ -1,0 +1,80 @@
+{
+  "restaurantName": "Leckeres Eck",
+  "description": "Ein gemütliches Restaurant mit einer vielfältigen Auswahl an köstlichen Speisen.",
+  "minOrderValue": 15.00,
+  "freeDeliveryThreshold": 30.00,
+  "menu": [
+    {
+      "id": 1,
+      "name": "Pizza Margherita",
+      "description": "Klassische Pizza mit Tomatensoße, Mozzarella und Basilikum.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 8.99,
+      "rating": {"votes": 120, "score": 4.5},
+      "extras": ["Extra Käse", "Oliven", "Peperoni"]
+    },
+    {
+      "id": 2,
+      "name": "Pasta Bolognese",
+      "description": "Hausgemachte Pasta mit herzhafter Bolognesesoße.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 10.50,
+      "rating": {"votes": 90, "score": 4.2},
+      "extras": ["Parmesan", "Knoblauchbrot", "Champignons"]
+    },
+    {
+      "id": 3,
+      "name": "Hähnchen-Curry",
+      "description": "Zartes Hähnchen in einer aromatischen Currysoße mit Gemüse.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 12.99,
+      "rating": {"votes": 150, "score": 4.8},
+      "extras": ["Reis", "Naan-Brot", "Kokosmilch"]
+    },
+    {
+      "id": 4,
+      "name": "Salat Nicoise",
+      "description": "Frischer Salat mit Thunfisch, Eiern, grünen Bohnen und Oliven.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 9.50,
+      "rating": {"votes": 80, "score": 4.0},
+      "extras": ["Sardellen", "Kapern", "Balsamico-Dressing"]
+    },
+    {
+      "id": 5,
+      "name": "Burger Deluxe",
+      "description": "Saftiger Burger mit Rindfleisch, Cheddar, Salat und Tomaten.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 11.99,
+      "rating": {"votes": 200, "score": 4.9},
+      "extras": ["Bacon", "Avocado", "Barbecue-Sauce"]
+    },
+    {
+      "id": 6,
+      "name": "Gemüse-Lasagne",
+      "description": "Vegetarische Lasagne mit frischem Gemüse und würziger Bechamelsoße.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 10.99,
+      "rating": {"votes": 110, "score": 4.7},
+      "extras": ["Knoblauchbrot", "Parmesan", "Rucola"]
+    },
+    {
+      "id": 7,
+      "name": "Sushi Combo",
+      "description": "Vielfältige Auswahl an frischem Sushi mit Sojasoße und Ingwer.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 14.50,
+      "rating": {"votes": 180, "score": 4.6},
+      "extras": ["Wasabi", "Ingwer", "Sojasoße"]
+    },
+    {
+      "id": 8,
+      "name": "Schokoladenfondue",
+      "description": "Verführerisches Schokoladenfondue mit frischem Obst und Marshmallows.",
+      "variants": ["klein", "mittel", "groß"],
+      "price": 8.50,
+      "rating": {"votes": 95, "score": 4.3},
+      "extras": ["Erdbeeren", "Ananas", "Cookies"]
+    }
+  ]
+}
